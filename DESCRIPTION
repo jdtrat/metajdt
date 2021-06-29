@@ -1,0 +1,23 @@
+Package: metajdt
+Title: Example of A Package Built with 'metamakr'
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Jonathan",
+           family = "Trattner",
+           role = c("aut", "cre"),
+           email = "jdt@jdtrat.com",
+           comment = c(ORCID = "0000-0002-1097-7603"))
+Description: Combines 'shinysurveys' and 'ghee' packages.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: es
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1.9000
+Imports: 
+    cli,
+    crayon,
+    ghee,
+    rstudioapi,
+    shinysurveys,
+    utils
