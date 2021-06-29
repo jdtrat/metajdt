@@ -56,7 +56,7 @@ metajdt_attach <- function() {
 
 # Detach all loaded packages for seeing the pretty startup message (:
 metajdt_detach <- function() {
-  pak <- paste0("package:", pkgs)
+  pak <- paste0("package:", c(pkgs, "metajdt"))
   lapply(pak[pak %in% search()], detach, character.only = TRUE)
   invisible()
 }
